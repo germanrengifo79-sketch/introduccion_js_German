@@ -1,11 +1,16 @@
+// ===== Ejercicio 1: Variable String y su tipo =====
+let ciudad = "Medellín";
+console.log(typeof ciudad); // Imprime: string
 
-let nombre="susana";
+// ===== Ejercicio 2: Variables Number y Boolean =====
+let precio = 4500.50;
+let descuento = true;
+console.log(typeof precio, typeof descuento); // Imprime: number boolean
 
+// ===== Ejercicio 3: Variable sin asignar (Undefined) =====
+let auto;
+console.log(typeof auto); // Imprime: undefined
 
-
-//number
-
-let edad=25; // la variable"edad" almacena el numero 25
-
-let total=10+5; //la variable "total" almacena el resultado de 10+5,que es 15
- console.log("instructora " + nombre)
+// ===== Ejercicio 4: Uso de Symbol =====
+let id = Symbol("id");
+console.log(typeof id); // Imprime: symbol
